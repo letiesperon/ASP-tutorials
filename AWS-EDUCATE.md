@@ -1,27 +1,33 @@
 # Arquitectura de Software en la Práctica
-## AWS Educate
+
+## AWS Educate Sign up
 
 Este documento describe los pasos a seguir para crear un cuenta en AWS Educate.
 
 1. Ingresar al sitio de [AWS Educate](https://aws.amazon.com/es/education/awseducate/)
 2. Hacer click en "Unirme a AWS Educate"
 
-![Paso 1](img/step-1.png)
+<img width="756" alt="step-1" src="https://user-images.githubusercontent.com/17788257/110948675-69135980-8320-11eb-9971-cf5ca32528b0.png">
+
 
 3. Seleccionar la opción "Student"
 
-![Paso 2](img/step-2.png)
+<img width="986" alt="step-2" src="https://user-images.githubusercontent.com/17788257/110948685-6c0e4a00-8320-11eb-8b82-7bf5f12863fb.png">
+
 
 4. Completar el campo "School or Institution Name" con el valor "Universidad ORT Uruguay" (autocompletable) y el campo "Country" con "Uruguay". A su vez ingresar el mail provisto por facultad con dominio *fi365.ort.edu.uy*
 
-![Paso 3](img/step-3.png)
+<img width="1169" alt="step-3" src="https://user-images.githubusercontent.com/17788257/110948722-74668500-8320-11eb-82ab-5dd653880b0e.png">
+
 
 ***Nota:*** Se verifica que la universidad y el mail coincidan, por lo que si se utiliza otro mail no provisto por la universidad no se otorgarán los beneficios.
 
 5. Finalmente debe aceptar los términos y condiciones. Hasta que no haga scroll no se habilitará la casilla "I Agree". Una vez leido los términos y condiciones selecionar la casilla "I Agree" y hacer click en "Submit"
 
-![Paso 4](img/step-4.png)
+<img width="1283" alt="step-4" src="https://user-images.githubusercontent.com/17788257/110948735-7892a280-8320-11eb-8abf-e3706491db6c.png">
+
 
 6. Completar el proceso verificando su casilla de correo y haciendo click en en enlace de verificación
 
-![Paso 5](img/step-5.png)
+<img width="808" alt="step-5" src="https://user-images.githubusercontent.com/17788257/110948740-7a5c6600-8320-11eb-97ca-a597cae78d72.png">
+
