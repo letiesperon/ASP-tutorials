@@ -53,3 +53,20 @@ Solo se debe cargar el código y Elastic Beanstalk administra de manera automát
 
 <img width="1065" alt="beanstalk-step-9" src="https://user-images.githubusercontent.com/17788257/111040663-c8519680-8412-11eb-869f-eb2b084e66f6.png">
 
+
+
+### Entrar a la instancia de EC2 creada por EB
+
+1. Crear una key-pair si no tengo una creada (en EC2/Network & Security/ Key pairs)
+2. Ir al environment de EB. En configuración, buscar donde hable de key pair y clickar EDIT. 
+![Screen Shot 2021-03-13 at 16 41 14](https://user-images.githubusercontent.com/17788257/111052672-b801e180-843b-11eb-95ed-ad7ad0591816.png)
+
+3. Elegir la key pair y confirmar
+
+![Screen Shot 2021-03-13 at 16 41 22](https://user-images.githubusercontent.com/17788257/111052677-bfc18600-843b-11eb-8ea9-94b0b023b205.png)
+
+5. Hacer ssh a la instancia como lo hacemos normalmente. 
+```
+ssh -i mykey.pem ec2-user@ec2-xxxxxxxx.compute-1.amazonaws.com 
+```
+5. Hacer `cd` a `/var/app/current` que es donde Elastic Beanstalk aloja mi app
