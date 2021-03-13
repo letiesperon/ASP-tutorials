@@ -53,3 +53,11 @@ Solo se debe cargar el código y Elastic Beanstalk administra de manera automát
 
 <img width="1065" alt="beanstalk-step-9" src="https://user-images.githubusercontent.com/17788257/111040663-c8519680-8412-11eb-869f-eb2b084e66f6.png">
 
+
+
+### Entrar a la instancia de EC2 creada por EB
+
+1. Crear una key-pair si no tengo una creada (en EC2/Network & Security/ Key pairs)
+2. Ir al environment de EB. En configuración, buscar donde hable de key pair y clickar EDIT. 
+3. Elegir la key pair y confirmar
+4. Hacer ssh a la instancia como lo hacemos normalmente. 
