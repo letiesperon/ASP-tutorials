@@ -1,12 +1,14 @@
-#### Ejemplo despliegue Beanstalk
+# Práctico Beanstalk y EC2 
 
-A continuación se detallan los pasos a seguir para desplegar de una aplicación Node.js sencilla utilizando el servicio AWS Beanstalk
-
-#### AWS Beanstalk
+**Tiempo aproximado: 10 minutos**
 
 AWS Elastic Beanstalk es un servicio para desplegar aplicaciones web desarrollados con Java, .NET, PHP, Node.js, Python, Ruby, Go y Docker.
 
 Solo se debe cargar el código y Elastic Beanstalk administra de manera automática el despliegue, desde el aprovisionamiento de la capacidad, balanceadores de carga, escalado automático y hasta la monitorización del estado de la aplicación. Al mismo tiempo, se tiene el control de los recursos de AWS que son utilizados por la aplicación pudiendo acceder a los recursos subyacentes.
+
+## Parte a) Desplegar una app estática a Elastic Beanstalk con Docker
+
+En el repositorio se encuentra una app estática Node.js, ya Dockerizada.
 
 1. Ingresar a la consola de AWS a través del sitio AWS Educate
 2. Seleccionar el servicio "Elastic Beanstalk"
@@ -44,7 +46,7 @@ Solo se debe cargar el código y Elastic Beanstalk administra de manera automát
 <img width="513" alt="beanstalk-step-7" src="https://user-images.githubusercontent.com/17788257/111040656-c2f44c00-8412-11eb-8eca-fc4f8b4f3e7b.png">
 
 
-9. Una vez lanzado el proceso de creación tenemos que aguardar alrededor de 5 minutos
+9.El proceso de creación toma unos minutos. Mientras se realiza, pueden ir mirando todo lo que va creando y configurando por nosotros (instancias, security group, auto scaling group, etc).
 
 <img width="1047" alt="beanstalk-step-8" src="https://user-images.githubusercontent.com/17788257/111040658-c556a600-8412-11eb-8ec7-b294259ca2d1.png">
 
@@ -53,9 +55,9 @@ Solo se debe cargar el código y Elastic Beanstalk administra de manera automát
 
 <img width="1065" alt="beanstalk-step-9" src="https://user-images.githubusercontent.com/17788257/111040663-c8519680-8412-11eb-869f-eb2b084e66f6.png">
 
+---
 
-
-### Entrar a la instancia de EC2 creada por EB
+## Parte b) Entrar a la instancia de EC2 creada por EB
 
 1. Crear una key-pair si no tengo una creada (en EC2/Network & Security/ Key pairs)
 2. Ir al environment de EB. En configuración, buscar donde hable de key pair y clickar EDIT. 
