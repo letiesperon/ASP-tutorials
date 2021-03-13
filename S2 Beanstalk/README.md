@@ -59,12 +59,8 @@ En el repositorio se encuentra una app estática Node.js, ya Dockerizada.
 
 ## Parte b) Entrar a la instancia de EC2 creada por EB
 
-1. Crear una pem keys
- si no tengo una creada (en EC2/Network & Security/ Key pairs)
+1. Crear una pem key si no tengo una creada (en EC2/Network & Security/ Key pairs)
 <img width="1000" alt="Screen Shot 2021-03-13 at 20 42 58" src="https://user-images.githubusercontent.com/17788257/111052780-dfa57980-843c-11eb-956a-bf702bd99907.png">
-
-y<img width="600" alt="Screen Shot 2021-03-13 at 20 43 12" src="https://user-images.githubusercontent.com/17788257/111052781-e207d380-843c-11eb-811c-34317f1b9e36.png">
-
 
 3. Ir al environment de EB. En configuración, buscar donde hable de key pair y clickar EDIT. 
 ![Screen Shot 2021-03-13 at 16 41 14](https://user-images.githubusercontent.com/17788257/111052672-b801e180-843b-11eb-95ed-ad7ad0591816.png)
@@ -75,6 +71,7 @@ y<img width="600" alt="Screen Shot 2021-03-13 at 20 43 12" src="https://user-ima
 
 5. Hacer ssh a la instancia como lo hacemos normalmente. 
 ```
+chmod 400 mykey.pem
 ssh -i mykey.pem ec2-user@ec2-xxxxxxxx.compute-1.amazonaws.com 
 ```
 5. Hacer `cd` a `/var/app/current` que es donde Elastic Beanstalk aloja mi app
