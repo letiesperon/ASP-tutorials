@@ -65,11 +65,17 @@ En el repositorio se encuentra una app estática Node.js, ya Dockerizada.
 
 Una vez que EB levantó el ambiente, revisar todos los nuevos recursos creados en nuestra cuenta (instancias, security group, auto scaling group, bucket de S3, load balancer, etc). 
 
+Responder:
+b. Qué reglas por defecto de Inbound y Outbound traffic tiene el Security Group que se usó para la instancia de EC2?
+d. Ir a cost explorer y explorar los nuevos costos. Por cuáles servicios de los que creó Elastic Beanstalk tendré cargos?
 
+Ir a configuración del environment de beanstalk y crear una base de datos postgres desde ahí. 
+a. Qué nueva variable de entorno se ha seteado en el environment?
+b. Qué reglas por defecto de Inbound y Outbound traffic tiene el Security Group que se usó para la base de datos?
+c. Las instancias y la base de datos están dentro de la misma VPC?
+d. Revisar nuevamente Cost Explorer.
 
 ---
-
-
 
 ## Parte c) Entrar a la instancia de EC2 creada por EB
 
