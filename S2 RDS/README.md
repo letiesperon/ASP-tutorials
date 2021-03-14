@@ -34,7 +34,8 @@ En este práctico vamos a crear una base de datos Postgres y acceder a ella usan
 14. Desde la consola local nos conectamos a través de psql (cliente Postgres), sustituyendo el `host` con el `endpoint` que copiamos en el paso anterior.
 ```bash
 psql --host=database-3.cauqih9phppe.us-east-1.rds.amazonaws.com --port=5432 --username=postgres --password
-`1`
+```
+
 15. Nos va a pedir la password. Introducir `password`. 
 16. Deberíamos poder acceder a la base de datos. También podemos usar PgAdmin como interfaz gráfica.
 17. No se olviden de borrarla cuando terminemos.
