@@ -1,6 +1,6 @@
 # Práctico Beanstalk y EC2 
 
-**Tiempo aproximado: 10 minutos**
+**Tiempo aproximado: 15 minutos**
 
 AWS Elastic Beanstalk es un servicio para desplegar aplicaciones web desarrollados con Java, .NET, PHP, Node.js, Python, Ruby, Go y Docker.
 
@@ -55,9 +55,23 @@ En el repositorio se encuentra una app estática Node.js, ya Dockerizada.
 
 <img width="1065" alt="beanstalk-step-9" src="https://user-images.githubusercontent.com/17788257/111040663-c8519680-8412-11eb-869f-eb2b084e66f6.png">
 
+
+
 ---
 
-## Parte b) Entrar a la instancia de EC2 creada por EB
+
+
+## Parte b) Examinar recursos creados
+
+Una vez que EB levantó el ambiente, revisar todos los nuevos recursos creados en nuestra cuenta (instancias, security group, auto scaling group, bucket de S3, load balancer, etc). 
+
+
+
+---
+
+
+
+## Parte c) Entrar a la instancia de EC2 creada por EB
 
 1. Crear una pem key si no tengo una creada (en EC2/Network & Security/ Key pairs)
 <img width="1000" alt="Screen Shot 2021-03-13 at 20 42 58" src="https://user-images.githubusercontent.com/17788257/111052780-dfa57980-843c-11eb-956a-bf702bd99907.png">
@@ -75,3 +89,5 @@ chmod 400 mykey.pem
 ssh -i mykey.pem ec2-user@ec2-xxxxxxxx.compute-1.amazonaws.com 
 ```
 5. Hacer `cd` a `/var/app/current` que es donde Elastic Beanstalk aloja mi app
+
+---
