@@ -31,3 +31,4 @@ Este documento describe los pasos a seguir para crear un cuenta en AWS Educate.
 
 <img width="808" alt="step-5" src="https://user-images.githubusercontent.com/17788257/110948740-7a5c6600-8320-11eb-97ca-a597cae78d72.png">
 
+7. Si el correo que llega de Amazon dice que tu pedido no se aprobó, contactar a Marta Castro (mailto:castro_mv@fi365.ort.edu.uy) con tu mail de ORT que ella lo aprueba. 
