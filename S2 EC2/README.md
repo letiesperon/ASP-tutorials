@@ -11,7 +11,8 @@ En este práctico vamos a crear una instancia y vamos a entrar por ssh a ella.
 
 2. Hacer click en Instancias. Seleccionar "Lanzar instancias"
 3. Seleccionar `Amazon Linux 2 AMI`
-![Uploading Screen Shot 2021-03-16 at 19.59.42.png…]()
+![Screen Shot 2021-03-16 at 19 59 42](https://user-images.githubusercontent.com/17788257/111391880-3b1d7480-8694-11eb-833d-11c8f923bff8.png)
+
 
 4. Elegir el free tier `t2.micro`. Cuánta CPU y RAM tengo disponible?
 5. Click en `Review and Launch`
