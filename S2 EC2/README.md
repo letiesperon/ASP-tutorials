@@ -30,9 +30,9 @@ chmod 400 test-key.pem
 ```
 11. Utilizar el DNS público para acceder a la instancia. Ejemplo:
 ```
-ssh -i leti-test1.pem ec2-user@ec2-54-159-255-77.compute-1.amazonaws.com
+ssh -i test-key.pem ec2-user@ec2-54-159-255-77.compute-1.amazonaws.com
 ```
 
 12. Estoy adentro de la instancia! Chusmear lo que hay (filesystem nuevito).
 
-13. Hacer un ping a google y confirmar que funciona. Qué regla del security group de la instancia lo permite?
+13. Dentro de la instancia, hacer un ping a google (`ping google.com`) y confirmar que funciona. Qué regla del security group de la instancia lo permite?
