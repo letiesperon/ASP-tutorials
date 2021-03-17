@@ -9,8 +9,8 @@ Por otro lado, vamos a ver cómo hostear un frontend en S3
 
 ### Parte A: Subir una imagen pública en un bucket
 
-1. Descargá tu foto de Martin Fowler favorita de Google
-2. Creá un bucket y subila
+1. Descargá una foto de un panda de Google
+2. Creá un bucket y subila ahí
 3. Intentá acceder en modo incógnito (o en otro browser donde no estés logueando en AWS)
 4. Hacé las configuraciones necesarias al bucket y al objeto para que puedas accederla en modo incógnito
 
