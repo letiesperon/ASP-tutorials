@@ -2,21 +2,54 @@
 
 Amazon S3 o Amazon Simple Storage Service es un servicio ofrecido por Amazon Web Services que proporciona almacenamiento de objetos a través de una interfaz de servicio web.
 
-**Tiempo aproximado: 10 minutos**
+**Tiempo aproximado: 15 minutos**
 
 En este práctico vamos a ver cómo crear un bucket y subir un objecto para entender sobre las políticas de visibilidad del bucket.
 Por otro lado, vamos a ver cómo hostear un frontend en S3
 
 ### Parte A: Subir una imagen pública en un bucket
 
-1. Descargá una foto de un panda de Google
-2. Creá un bucket y subila ahí
-3. Intentá acceder en modo incógnito (o en otro browser donde no estés logueando en AWS)
-4. Hacé las configuraciones necesarias al bucket y al objeto para que puedas accederla en modo incógnito
+1. Descargar una foto de un panda de Google
+2. Crear un bucket y subila ahí
+3. Intentar acceder en modo incógnito (o en otro browser donde no estés logueando en AWS)
+4. Hacer las configuraciones necesarias al bucket y al objeto para que puedas accederla en modo incógnito
 
 
-#### Parte B: Hostear una página web estática (HTML, CSS y Javascript + Nodejs) en un bucket
+#### Parte B: Hostear una página web estática (con React js) en un bucket
 
-WIP
+1. Descargar `gatito-react-app`
+2. Hacer cd al directorio y correr `yarn install` y luego `yarn build`. Debería haber generado una carpeta `build`.
+3. Ir a S3. Clicker en "Create Bucket".
+4. Elegir un nombre de bucket (tiene que ser único). Para el ejemplo yo voy a usar `gatito-react-app-leti`.
+5. Desclickear "Block all public access"
+6. Click en "Create bucket". Va a pedirte chequear un box avisando que el bucket va a quedar público.
+7. Ir al bucket creado y en "Properties" tomar nota del ARN (nombre del recurso). En mi caso es `arn:aws:s3:::gatito-react-app-leti`.
+8. Ir a "Permissions". Editar la policy para que sea la (sustituyendo tu ARN):
+```
+{
+  "Version": "2012-10-17",
+  "Id": "MyPolicy",
+  "Statement": [
+    {
+      "Sid": "PublicReadForGetBucketObjects",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::gatito-react-app-leti/*"
+    }
+  ]
+}
+```
+9. Ir a "Objects". Click en "Upload".
+10. Usar el "Drag and drop" para subir TODO el contenido dentro la carpeta `build` que se generó cuando hicimos `yarn build` (incluida la carpeta `static`) y guardamos.
+11. Cuando haya terminado de subir, le damos "Close".
+12. En "Properties", scrolleamos para abajo a donde dice "Static website hosting" y le damos "Edit".
+13. Elegimos "Enable" y seleccionamos `index.html` y salvamos.
+14. Ahora en "Properties", abajo del todo nos debería aparecer la url de nuestra página.
+15. Si lo clickeamos, deberíamos ver a nuestro gatito!
 
-Por qué es conveniente hacer esto en lugar de usar Elastic Beanstalk u otro servicio?
+--
+
+[Otro tutorial](https://www.ryanjyost.com/create-s3-bucket-manually/)
+
+**Por qué es conveniente hacer esto en lugar de usar Elastic Beanstalk u otro servicio?**
