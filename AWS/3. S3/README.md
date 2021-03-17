@@ -17,13 +17,17 @@ Por otro lado, vamos a ver cómo hostear un frontend en S3
 
 #### Parte B: Hostear una página web estática (con React js) en un bucket
 
-1. Descargar `gatito-react-app`
+1. Descargar `gatito-react-app`.
 2. Hacer cd al directorio y correr `yarn install` y luego `yarn build`. Debería haber generado una carpeta `build`.
 3. Ir a S3. Clicker en "Create Bucket".
 4. Elegir un nombre de bucket (tiene que ser único). Para el ejemplo yo voy a usar `gatito-react-app-leti`.
 5. Desclickear "Block all public access"
+![Screen Shot 2021-03-17 at 19 12 27](https://user-images.githubusercontent.com/17788257/111546603-afb8e780-8756-11eb-92e0-662f98c023c6.png)
+
 6. Click en "Create bucket". Va a pedirte chequear un box avisando que el bucket va a quedar público.
 7. Ir al bucket creado y en "Properties" tomar nota del ARN (nombre del recurso). En mi caso es `arn:aws:s3:::gatito-react-app-leti`.
+![Screen Shot 2021-03-17 at 19 28 29](https://user-images.githubusercontent.com/17788257/111546830-06262600-8757-11eb-887a-480800f3391b.png)
+
 8. Ir a "Permissions". Editar la policy para que sea la (sustituyendo tu ARN):
 ```
 {
@@ -42,10 +46,15 @@ Por otro lado, vamos a ver cómo hostear un frontend en S3
 ```
 9. Ir a "Objects". Click en "Upload".
 10. Usar el "Drag and drop" para subir TODO el contenido dentro la carpeta `build` que se generó cuando hicimos `yarn build` (incluida la carpeta `static`) y guardamos.
+![Screen Shot 2021-03-17 at 19 19 59](https://user-images.githubusercontent.com/17788257/111546731-e3940d00-8756-11eb-912e-b2e36b46fa26.png)
+
 11. Cuando haya terminado de subir, le damos "Close".
 12. En "Properties", scrolleamos para abajo a donde dice "Static website hosting" y le damos "Edit".
 13. Elegimos "Enable" y seleccionamos `index.html` y salvamos.
+![Screen Shot 2021-03-17 at 19 21 46](https://user-images.githubusercontent.com/17788257/111546683-ceb77980-8756-11eb-9cae-445e16530273.png)
 14. Ahora en "Properties", abajo del todo nos debería aparecer la url de nuestra página.
+![Screen Shot 2021-03-17 at 19 22 16](https://user-images.githubusercontent.com/17788257/111546709-da0aa500-8756-11eb-8815-8b00b56df6ff.png)
+
 15. Si lo clickeamos, deberíamos ver a nuestro gatito!
 
 --
