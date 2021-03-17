@@ -14,8 +14,9 @@ Por otro lado, vamos a ver cómo hostear un frontend en S3
 3. Intentar acceder en modo incógnito (o en otro browser donde no estés logueando en AWS)
 4. Hacer las configuraciones necesarias al bucket y al objeto para que puedas accederla en modo incógnito
 
+---
 
-#### Parte B: Hostear una página web estática (con React js) en un bucket
+### Parte B: Hostear una página web estática (con React js) en un bucket
 
 1. Descargar `gatito-react-app`.
 
