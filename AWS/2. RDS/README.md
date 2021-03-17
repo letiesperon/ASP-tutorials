@@ -38,7 +38,9 @@ En este práctico vamos a crear una base de datos Postgres y acceder a ella usan
 psql --host=database-3.cauqih9phppe.us-east-1.rds.amazonaws.com --port=5432 --username=postgres --password
 ```
 (También podemos usar PgAdmin como interfaz gráfica.)
+
 15. Nos va a pedir la password. Introducir `password`.
+
 16. Deberíamos poder acceder a la base de datos. 
 Probar hacer algo como:
 ```
