@@ -1,4 +1,4 @@
-### Práctico
+## Práctico
 
 Amazon S3 o Amazon Simple Storage Service es un servicio ofrecido por Amazon Web Services que proporciona almacenamiento de objetos a través de una interfaz de servicio web.
 
@@ -76,7 +76,7 @@ Por otro lado, vamos a ver cómo hostear un frontend en S3
 
 15. Si lo clickeamos, deberíamos ver a nuestro gatito!
 
---
+---
 
 [Otro tutorial](https://www.ryanjyost.com/create-s3-bucket-manually/)
 
