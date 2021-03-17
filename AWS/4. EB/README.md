@@ -1,4 +1,4 @@
-# Práctico Beanstalk y EC2 
+# Práctico Beanstalk y EC2
 
 **Tiempo aproximado: 15 minutos**
 
@@ -63,13 +63,13 @@ En el repositorio se encuentra una app estática Node.js, ya Dockerizada.
 
 ## Parte b) Examinar recursos creados
 
-Una vez que EB levantó el ambiente, revisar todos los nuevos recursos creados en nuestra cuenta (instancias, security group, auto scaling group, bucket de S3, load balancer, etc). 
+Una vez que EB levantó el ambiente, revisar todos los nuevos recursos creados en nuestra cuenta (instancias, security group, auto scaling group, bucket de S3, load balancer, etc).
 
 Responder:
 b. Qué reglas por defecto de Inbound y Outbound traffic tiene el Security Group que se usó para la instancia de EC2?
 d. Ir a cost explorer y explorar los nuevos costos. Por cuáles servicios de los que creó Elastic Beanstalk tendré cargos?
 
-Ir a configuración del environment de beanstalk y crear una base de datos postgres desde ahí. 
+Ir a configuración del environment de beanstalk y crear una base de datos postgres desde ahí. (Aunque la app no la use)
 a. Qué nueva variable de entorno se ha seteado en el environment?
 b. Qué reglas por defecto de Inbound y Outbound traffic tiene el Security Group que se usó para la base de datos?
 c. Las instancias y la base de datos están dentro de la misma VPC?
@@ -82,17 +82,17 @@ d. Revisar nuevamente Cost Explorer.
 1. Crear una pem key si no tengo una creada (en EC2/Network & Security/ Key pairs)
 <img width="1000" alt="Screen Shot 2021-03-13 at 20 42 58" src="https://user-images.githubusercontent.com/17788257/111052780-dfa57980-843c-11eb-956a-bf702bd99907.png">
 
-3. Ir al environment de EB. En configuración, buscar donde hable de key pair y clickar EDIT. 
+3. Ir al environment de EB. En configuración, buscar donde hable de key pair y clickar EDIT.
 ![Screen Shot 2021-03-13 at 16 41 14](https://user-images.githubusercontent.com/17788257/111052672-b801e180-843b-11eb-95ed-ad7ad0591816.png)
 
 3. Elegir la key pair y confirmar
 
 ![Screen Shot 2021-03-13 at 16 41 22](https://user-images.githubusercontent.com/17788257/111052677-bfc18600-843b-11eb-8ea9-94b0b023b205.png)
 
-5. Hacer ssh a la instancia como lo hacemos normalmente. 
+5. Hacer ssh a la instancia como lo hacemos normalmente.
 ```
 chmod 400 mykey.pem
-ssh -i mykey.pem ec2-user@ec2-xxxxxxxx.compute-1.amazonaws.com 
+ssh -i mykey.pem ec2-user@ec2-xxxxxxxx.compute-1.amazonaws.com
 ```
 5. Hacer `cd` a `/var/app/current` que es donde Elastic Beanstalk aloja mi app
 

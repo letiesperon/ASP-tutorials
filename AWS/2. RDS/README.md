@@ -1,8 +1,10 @@
 ### Práctico
 
-En este práctico vamos a crear una base de datos Postgres y acceder a ella usando psql desde nuestra compu local.
-
 **Tiempo aproximado: 5 minutos**
+
+Amazon Relational Database Service es un servicio de base de datos relacional distribuida de Amazon Web Services.
+
+En este práctico vamos a crear una base de datos Postgres y acceder a ella usando psql desde nuestra compu local.
 
 1. Ir a la consola de AWS y buscar el servicio RDS.
 2. Clicker en "Create Database".
@@ -36,6 +38,6 @@ En este práctico vamos a crear una base de datos Postgres y acceder a ella usan
 psql --host=database-3.cauqih9phppe.us-east-1.rds.amazonaws.com --port=5432 --username=postgres --password
 ```
 
-15. Nos va a pedir la password. Introducir `password`. 
+15. Nos va a pedir la password. Introducir `password`.
 16. Deberíamos poder acceder a la base de datos. También podemos usar PgAdmin como interfaz gráfica.
 17. No se olviden de borrarla cuando terminemos.
