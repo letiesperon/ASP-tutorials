@@ -40,3 +40,8 @@ En este práctico vamos a hacer un pipeline simple, que lea de un repositorio pr
 
 10. Cuando finalice vamos a nuestra app de Elastic Beanstalk y deberíamos ver que se desplegó nuestra app node. 
 11. Probar hacer un commit en el repositorio y ver si los cambios se despliegan a la app automáticamente.
+
+
+---
+
+[Ejemplo de la doc de AWS pero con PHP](https://aws.amazon.com/es/getting-started/hands-on/continuous-deployment-pipeline/)
