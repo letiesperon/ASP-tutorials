@@ -48,3 +48,7 @@ En este práctico vamos a hacer un pipeline simple, que lea de un repositorio pr
 ---
 
 [Ejemplo de la doc de AWS pero con PHP](https://aws.amazon.com/es/getting-started/hands-on/continuous-deployment-pipeline/)
+
+---
+
+[CodePipeline pricing](https://aws.amazon.com/es/codepipeline/pricing/)
