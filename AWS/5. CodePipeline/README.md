@@ -35,7 +35,7 @@ En este práctico vamos a hacer un pipeline simple, que lea de un repositorio pr
 8. En **Deploy stage** configurar **Elastic Beanstalk** y elegir la aplicación que acabamos de crear en el paso 1. 
 ![Screen Shot 2021-03-23 at 09 54 15](https://user-images.githubusercontent.com/17788257/112152139-b618ea80-8bc0-11eb-92f5-fd25bf4c0390.png)
 
-9. Asegurarnos de que nuestra app de ElasticBeanstalk haya terminado de desplegar. Tiene que estar en verde y mostrar la pantalla de la sample application. Sino va a dar un error de versiones diferentes cuando CodePipeline intente subir.
+9. Asegurarnos de que nuestra app de ElasticBeanstalk haya terminado de desplegar. 
 
 10. Le damos finalizar y ahora deberíamos ver el Deploy "In Progress" 
 ![Screen Shot 2021-03-23 at 09 55 33](https://user-images.githubusercontent.com/17788257/112152609-3b040400-8bc1-11eb-8e13-071183ac651a.png)
@@ -44,6 +44,11 @@ En este práctico vamos a hacer un pipeline simple, que lea de un repositorio pr
 
 12. Probar hacer un commit en el repositorio y ver si los cambios se despliegan a la app automáticamente.
 
+### Troubleshooting:
+
+* Si el deploy falla (lo ves en Beanstalk o en CodePipeline), tengo que revisar los "last 100 logs" en Elastic Beanstalk para darme cuenta de por qué. (Lo que muestra en el overview es misleading porque ahí puede decir "version mismatch" pero eso es cuando intentó hacer rollback del deploy que falló. Siempre buscá los logs posta. Hacé control find "ERROR").
+
+* Nota: Por alguna razón es necesario que el Dockerfile tenga explícito el "EXPOSE".  
 
 ---
 
