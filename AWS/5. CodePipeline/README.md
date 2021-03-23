@@ -17,3 +17,22 @@ En este práctico vamos a hacer un pipeline simple, que lea de un repositorio pr
 #### Parte 3. Armar pipeline en CodePipeline
 
 1. Ir a servicios y buscar **CodePipeline**.
+
+2. Hacer click en "Crear Pipeline"
+![Screen Shot 2021-03-23 at 09 45 56](https://user-images.githubusercontent.com/17788257/112151597-2ecb7700-8bc0-11eb-8e90-a3574ee81eb1.png)
+
+3. Elegir un nombre para el Pipeline (no se puede cambiar después)
+![Screen Shot 2021-03-23 at 09 47 05](https://user-images.githubusercontent.com/17788257/112151615-33902b00-8bc0-11eb-95bf-54eda2933a61.png)
+
+4. En el segundo paso, sobre el **Source Stage** elegir **Github v1** (el v2 es mejor, pero AWS Educate no nos deja). 
+
+5. Autorizar github en la pestaña que se abre. 
+6. Elegir el repositorio y la rama `master` (o `main` si es un repo de los nuevos)
+![Screen Shot 2021-03-23 at 09 50 48](https://user-images.githubusercontent.com/17788257/112152065-a5687480-8bc0-11eb-8394-a61607cd9825.png)
+![Screen Shot 2021-03-23 at 09 54 15](https://user-images.githubusercontent.com/17788257/112152139-b618ea80-8bc0-11eb-92f5-fd25bf4c0390.png)
+
+7. Darle **Skip stage** al **Build Stage**. Este paso es lo que precisaríamos para hacer algo como compilar el código, correr migraciones, chequear que las pruebas corran, etc. No lo vamos a ver en este ejemplo. 
+
+8. 
+![Screen Shot 2021-03-23 at 09 50 08](https://user-images.githubusercontent.com/17788257/112152000-97b2ef00-8bc0-11eb-8558-ab0807a7f5c6.png)
+
