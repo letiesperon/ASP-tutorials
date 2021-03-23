@@ -35,3 +35,6 @@ En este práctico vamos a hacer un pipeline simple, que lea de un repositorio pr
 8. En **Deploy stage** configurar **Elastic Beanstalk** y elegir la aplicación que acabamos de crear en el paso 1. 
 ![Screen Shot 2021-03-23 at 09 54 15](https://user-images.githubusercontent.com/17788257/112152139-b618ea80-8bc0-11eb-92f5-fd25bf4c0390.png)
 
+9. Le damos finalizar y ahora deberíamos ver el Deploy "In Progress" 
+![Screen Shot 2021-03-23 at 09 55 33](https://user-images.githubusercontent.com/17788257/112152609-3b040400-8bc1-11eb-8e13-071183ac651a.png)
+
