@@ -35,11 +35,14 @@ En este práctico vamos a hacer un pipeline simple, que lea de un repositorio pr
 8. En **Deploy stage** configurar **Elastic Beanstalk** y elegir la aplicación que acabamos de crear en el paso 1. 
 ![Screen Shot 2021-03-23 at 09 54 15](https://user-images.githubusercontent.com/17788257/112152139-b618ea80-8bc0-11eb-92f5-fd25bf4c0390.png)
 
-9. Le damos finalizar y ahora deberíamos ver el Deploy "In Progress" 
+9. Asegurarnos de que nuestra app de ElasticBeanstalk haya terminado de desplegar. Tiene que estar en verde y mostrar la pantalla de la sample application. Sino va a dar un error de versiones diferentes cuando CodePipeline intente subir.
+
+10. Le damos finalizar y ahora deberíamos ver el Deploy "In Progress" 
 ![Screen Shot 2021-03-23 at 09 55 33](https://user-images.githubusercontent.com/17788257/112152609-3b040400-8bc1-11eb-8e13-071183ac651a.png)
 
-10. Cuando finalice vamos a nuestra app de Elastic Beanstalk y deberíamos ver que se desplegó nuestra app node. 
-11. Probar hacer un commit en el repositorio y ver si los cambios se despliegan a la app automáticamente.
+12. Cuando finalice vamos a nuestra app de Elastic Beanstalk y deberíamos ver que se desplegó nuestra app node. 
+
+12. Probar hacer un commit en el repositorio y ver si los cambios se despliegan a la app automáticamente.
 
 
 ---
