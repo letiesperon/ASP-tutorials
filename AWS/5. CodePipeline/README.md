@@ -38,3 +38,5 @@ En este práctico vamos a hacer un pipeline simple, que lea de un repositorio pr
 9. Le damos finalizar y ahora deberíamos ver el Deploy "In Progress" 
 ![Screen Shot 2021-03-23 at 09 55 33](https://user-images.githubusercontent.com/17788257/112152609-3b040400-8bc1-11eb-8e13-071183ac651a.png)
 
+10. Cuando finalice vamos a nuestra app de Elastic Beanstalk y deberíamos ver que se desplegó nuestra app node. 
+11. Probar hacer un commit en el repositorio y ver si los cambios se despliegan a la app automáticamente.
