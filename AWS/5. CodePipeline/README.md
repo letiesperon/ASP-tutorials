@@ -14,7 +14,7 @@ En este práctico vamos a hacer un pipeline simple, que lea de un repositorio pr
 
 1. Hacer fork, clonar, o crear tu repo propio que utilice Docker y sin base de datos para este ejemplo (porque no vamos a ver aún cómo hacer builds complejos que requieran por ejemplo ejecutar migraciones). Para el ejemplo uso [node-app-static](https://github.com/letiesperon/node-app-static).
 
-#### Parte 3. Armar pipeline en CodePipeline
+### Parte 3. Armar pipeline en CodePipeline
 
 1. Ir a servicios y buscar **CodePipeline**.
 
