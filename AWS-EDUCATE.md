@@ -17,6 +17,8 @@ Este documento describe los pasos a seguir para crear un cuenta en AWS Educate.
 
 4. Completar el campo "School or Institution Name" con el valor "Universidad ORT Uruguay" (autocompletable) y el campo "Country" con "Uruguay". A su vez ingresar el mail provisto por facultad con dominio *fi365.ort.edu.uy*
 
+**IMPORTANTE** La fecha de graduación tiene que ser luego de que termine este semestre! (> agosto 2021) Sino la rechazan automáticamente
+
 <img width="1169" alt="step-3" src="https://user-images.githubusercontent.com/17788257/110948722-74668500-8320-11eb-82ab-5dd653880b0e.png">
 
 
