@@ -82,3 +82,6 @@ Por otro lado, vamos a ver cómo hostear un frontend en S3
 [Otro tutorial](https://www.ryanjyost.com/create-s3-bucket-manually/)
 
 **Por qué es conveniente hacer esto en lugar de usar Elastic Beanstalk u otro servicio?**
+
+---
+[Precios S3](https://aws.amazon.com/es/getting-started/hands-on/host-static-website/services-costs/)
