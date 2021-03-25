@@ -12,7 +12,7 @@ Por otro lado, vamos a ver cómo hostear un frontend en S3
 1. Descargar una foto de un panda de Google
 2. Crear un bucket y subila ahí
 3. Intentar acceder en modo incógnito (o en otro browser donde no estés logueando en AWS)
-4. Hacer las configuraciones necesarias al bucket y al objeto para que puedas accederla en modo incógnito
+4. Hacer las configuraciones necesarias al bucket y al objeto para que puedas accederla en modo incógnito (osea, que sea pública)
 
 ---
 
