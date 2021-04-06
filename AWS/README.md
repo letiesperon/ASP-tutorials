@@ -11,8 +11,9 @@
 4. Click en **AWS Educate Starter Account**
 ![Screen Shot 2021-03-17 at 08 07 47](https://user-images.githubusercontent.com/17788257/111458653-7487cb80-86f8-11eb-8f3f-d413664bef38.png)
 
+5. (Si no tienen esa opción deberían poder ver los classrooms y acceder desde ahí)
 
-5. Estamos en la página de Vocareum. Click en **AWS Console**.
+6. Estamos en la página de Vocareum. Click en **AWS Console**.
 ![Screen Shot 2021-03-17 at 08 09 58](https://user-images.githubusercontent.com/17788257/111458663-78b3e900-86f8-11eb-97d4-d9015bfab993.png)
 
 **Nota:** Si queremos las keys de acceso programático click en **Account Details**. Considerar que solo duran 3 horas!
