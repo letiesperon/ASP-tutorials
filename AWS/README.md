@@ -64,5 +64,7 @@ El docente te tiene que haber invitado previamente a AWS Academy, concretamente 
 * Si 4 horas no es suficiente, en cualqueir momento pueden volver a darle click a "Start lab" y eso va a reiniciar el timer a 4 horas de nuevo, sin ningún tipo de consecuencia o pérdida de datos. 
 * Si hacen click en **"Reset lab"** eso sí borra todos los recursos que hayan creado en su cuenta de AWS. 
 * Hay más instrucciones de todo esto y **qué servicios están disponibles** en el **"README"**. Leánlo antes de usar un servicio nuevo. Asegúrense de entender cómo funcionan los labs antes de empezar a hacer cosas para su obligatorio para no encontrarse con sorpresas después. 
-![image](https://user-images.githubusercontent.com/17788257/131234457-e880a4e9-e9d3-43da-82c2-bc0068959edf.png)
-<img width="600" alt="Screen Shot 2021-08-28 at 20 55 39" src="https://user-images.githubusercontent.com/17788257/131234467-b5602e6b-6975-4a00-b939-e3342a645789.png">
+
+<img width="600" alt="Screen Shot 2021-08-28 at 20 55 39" src="https://user-images.githubusercontent.com/17788257/131234457-e880a4e9-e9d3-43da-82c2-bc0068959edf.png">
+
+<img width="250" alt="Screen Shot 2021-08-28 at 20 55 39" src="https://user-images.githubusercontent.com/17788257/131234467-b5602e6b-6975-4a00-b939-e3342a645789.png">
