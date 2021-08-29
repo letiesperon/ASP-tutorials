@@ -1,4 +1,4 @@
-### Cómo entrar al lab de AWS Academy
+# Cómo entrar al lab de AWS Academy
 
 Para hacer uso de AWS con 100 USD de créditos, lo hacemos a través de la plataforma AWS Academy. 
 El docente te tiene que haber invitado previamente a AWS Academy, concretamente a una clase que se llama **"AWS Academy Learner Lab - Foundation Services"**. 
@@ -23,6 +23,6 @@ El docente te tiene que haber invitado previamente a AWS Academy, concretamente 
 ---
 
 5. Una vez adentro, accedés desde la pestaña **Courses** y accedé al **"AWS Academy Learner Lab - Foundation Services"**.
-![image](https://user-images.githubusercontent.com/17788257/131234122-b40ad46e-e7d8-4b1e-95a1-4258962dadd7.png)
+<img width="400" alt="Screen Shot 2021-08-28 at 20 19 53" src="https://user-images.githubusercontent.com/17788257/131234122-b40ad46e-e7d8-4b1e-95a1-4258962dadd7.png">
 
 6. 
