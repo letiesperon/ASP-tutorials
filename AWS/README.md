@@ -33,7 +33,7 @@ El docente te tiene que haber invitado previamente a AWS Academy, concretamente 
 2. En **Modules** click en **"Student Access"**
 <img width="600" alt="Recursos educativos" src="https://user-images.githubusercontent.com/17788257/131234249-980d077d-83e0-4f25-9cac-11b8251f03ef.png">
 
-3. "Leer" y aceptar los términos del servicio y eso. 
+3. Leer y aceptar los términos del servicio. 
 <img width="600" alt="ToS" src="https://user-images.githubusercontent.com/17788257/131234215-567834cb-8914-4b50-8c1a-fc4de566e430.png">
 
 4. **Nota:** En **Modules** hay un montón de videos sobre AWS en general y los servicios. Mucho de eso ya lo fuimos cubriendo en clase pero quizás les sirve. 
