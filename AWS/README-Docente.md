@@ -15,10 +15,22 @@
 
 ---
 
-## Cómo impersonar a un alumno
+### Cómo impersonar a un alumno
 
 1. Ir a **"Courses"**/**"People"** y hacer click en **User Details** del alumno. 
 <img width="600" alt="Screen Shot 2021-08-29 at 09 22 36" src="https://user-images.githubusercontent.com/17788257/131250104-aadba18d-f39d-4e68-bef2-67ebb3bd9f90.png">
 
 2. Click en **"Student View"**
 <img width="600" alt="Screen Shot 2021-08-29 at 09 22 36" src="https://user-images.githubusercontent.com/17788257/131250130-3a7b6e4f-99b8-4f26-8b4f-456f3f6dde19.png">
+
+---
+
+### Cómo ver los reportes por alumno 
+
+TODO
+
+--
+
+### Cómo hacer "Prewarm" de los labs
+
+TODO
