@@ -12,3 +12,13 @@
 3. Agregar a los alumnos por email (puede ser cualquier email, no necesariamente el de la ORT según mis tests). 
 4. Te va a pedir asignarles un nombre a cada uno por si no tienen una cuenta ya creada. 
 5. A ellos les va a llegar un mail. Decirles que sigan los pasos que puse en el [tutorial para los alumnos](https://github.com/letiesperon/ASP-tutorials/blob/main/AWS/README.md). 
+
+---
+
+## Cómo impersonar a un alumno
+
+1. Ir a **"Courses"**/**"People"** y hacer click en **User Details** del alumno. 
+![image](https://user-images.githubusercontent.com/17788257/131250104-aadba18d-f39d-4e68-bef2-67ebb3bd9f90.png)
+
+2. Click en **"Student View"**
+![image](https://user-images.githubusercontent.com/17788257/131250130-3a7b6e4f-99b8-4f26-8b4f-456f3f6dde19.png)
