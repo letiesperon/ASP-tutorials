@@ -10,17 +10,17 @@ El docente te tiene que haber invitado previamente a AWS Academy, concretamente 
 
 
 2. Click en "Create my account"
-<img width="400" alt="Create account" src="https://user-images.githubusercontent.com/17788257/131234083-77a5ca58-3129-4596-998c-e85a2fb10d5a.png">
+<img width="600" alt="Create account" src="https://user-images.githubusercontent.com/17788257/131234083-77a5ca58-3129-4596-998c-e85a2fb10d5a.png">
 
 3. Elegí una contraseña
-<img width="400" alt="Set password" src="https://user-images.githubusercontent.com/17788257/131234086-d1014e3e-736e-47f6-ad07-bf28e41ddbec.png">
+<img width="600" alt="Set password" src="https://user-images.githubusercontent.com/17788257/131234086-d1014e3e-736e-47f6-ad07-bf28e41ddbec.png">
 
 4. Es posible que te diga algo así como "ya existe una cuenta para vos". Esto es porque yo cuando creé la clase como docente e invito a los alumnos, se crean cuentas temporales. Si el nombre está ok, dale ok.
 
-<img width="400" alt="Cuenta existe warning" src="https://user-images.githubusercontent.com/17788257/131234106-23bbd544-6658-4449-87f8-3a41039002ae.png">
+<img width="600" alt="Cuenta existe warning" src="https://user-images.githubusercontent.com/17788257/131234106-23bbd544-6658-4449-87f8-3a41039002ae.png">
 
 5. En **Dashboard** aceptá la invitación. 
-<img width="400" alt="Aceptar Invitación" src="https://user-images.githubusercontent.com/17788257/131234153-d2acc1dd-190d-416c-a0e2-80765d9913ba.png">
+<img width="600" alt="Aceptar Invitación" src="https://user-images.githubusercontent.com/17788257/131234153-d2acc1dd-190d-416c-a0e2-80765d9913ba.png">
 
 
 ---
@@ -28,16 +28,16 @@ El docente te tiene que haber invitado previamente a AWS Academy, concretamente 
 ## 2. Cómo entrar a Learner Lab
 
 1. Una vez adentro de AWS Academy, ir a la pestaña **Courses** y accedé al **"AWS Academy Learner Lab - Foundation Services"**.
-<img width="400" alt="Screen Shot 2021-08-28 at 20 19 53" src="https://user-images.githubusercontent.com/17788257/131234122-b40ad46e-e7d8-4b1e-95a1-4258962dadd7.png">
+<img width="600" alt="Screen Shot 2021-08-28 at 20 19 53" src="https://user-images.githubusercontent.com/17788257/131234122-b40ad46e-e7d8-4b1e-95a1-4258962dadd7.png">
 
 2. En **Modules** click en **"Student Access"**
-<img width="400" alt="Recursos educativos" src="https://user-images.githubusercontent.com/17788257/131234249-980d077d-83e0-4f25-9cac-11b8251f03ef.png">
+<img width="600" alt="Recursos educativos" src="https://user-images.githubusercontent.com/17788257/131234249-980d077d-83e0-4f25-9cac-11b8251f03ef.png">
 
 3. "Leer" y aceptar los términos del servicio y eso. 
-<img width="400" alt="ToS" src="https://user-images.githubusercontent.com/17788257/131234215-567834cb-8914-4b50-8c1a-fc4de566e430.png">
+<img width="600" alt="ToS" src="https://user-images.githubusercontent.com/17788257/131234215-567834cb-8914-4b50-8c1a-fc4de566e430.png">
 
 4. **Nota:** En **Modules** hay un montón de videos sobre AWS en general y los servicios. Mucho de eso ya lo fuimos cubriendo en clase pero quizás les sirve. 
-<img width="400" alt="Recursos educativos" src="https://user-images.githubusercontent.com/17788257/131234196-22f67db0-80dd-4d76-9bbc-e698cf78e0ba.png">
+<img width="600" alt="Recursos educativos" src="https://user-images.githubusercontent.com/17788257/131234196-22f67db0-80dd-4d76-9bbc-e698cf78e0ba.png">
 
 ---
 
@@ -47,13 +47,13 @@ El docente te tiene que haber invitado previamente a AWS Academy, concretamente 
 ![image](https://user-images.githubusercontent.com/17788257/131234292-597a44a0-bf37-4705-b6f8-d9e3ba413aae.png)
 
 2. Cuando vayamos a comenzar una sesión práctica, deben darle click a **"Start Lab"**. 
-<img width="400" alt="Start Lab" src="https://user-images.githubusercontent.com/17788257/131234321-91779761-b96e-4c17-8de3-18cb8c8758a0.png">
+<img width="600" alt="Start Lab" src="https://user-images.githubusercontent.com/17788257/131234321-91779761-b96e-4c17-8de3-18cb8c8758a0.png">
 
 3. Esto puede demorar unos minutos la primera vez si es que yo como docente no me acordé de hacer "prewarm" del lab antes de la clase. 
-<img width="400" alt="Starting lab" src="https://user-images.githubusercontent.com/17788257/131234318-f95471fe-99c4-46c0-9e84-5e720e9e5855.png">
+<img width="600" alt="Starting lab" src="https://user-images.githubusercontent.com/17788257/131234318-f95471fe-99c4-46c0-9e84-5e720e9e5855.png">
 
 4. Cuando finalizó, pueden acceder a la consola de AWS en la tab que dice **AWS**. Esto los va a redirigir al dashboard de AWS iniciado sesión con una cuenta de estudiante que se creó automáticamente por ustedes. 
-<img width="400" alt="Starting lab" src="https://user-images.githubusercontent.com/17788257/131234514-4396dec4-d0b6-4ac2-836c-0a54da9b08fd.png">
+<img width="600" alt="Starting lab" src="https://user-images.githubusercontent.com/17788257/131234514-4396dec4-d0b6-4ac2-836c-0a54da9b08fd.png">
 
 #### Importante: 
 * Cada uno tiene un budget de **100 USD** para gastar durante todo el **semestre**.
@@ -65,4 +65,4 @@ El docente te tiene que haber invitado previamente a AWS Academy, concretamente 
 * Si hacen click en **"Reset lab"** eso sí borra todos los recursos que hayan creado en su cuenta de AWS. 
 * Hay más instrucciones de todo esto y **qué servicios están disponibles** en el **"README"**. Leánlo antes de usar un servicio nuevo. Asegúrense de entender cómo funcionan los labs antes de empezar a hacer cosas para su obligatorio para no encontrarse con sorpresas después. 
 ![image](https://user-images.githubusercontent.com/17788257/131234457-e880a4e9-e9d3-43da-82c2-bc0068959edf.png)
-<img width="352" alt="Screen Shot 2021-08-28 at 20 55 39" src="https://user-images.githubusercontent.com/17788257/131234467-b5602e6b-6975-4a00-b939-e3342a645789.png">
+<img width="600" alt="Screen Shot 2021-08-28 at 20 55 39" src="https://user-images.githubusercontent.com/17788257/131234467-b5602e6b-6975-4a00-b939-e3342a645789.png">
