@@ -33,6 +33,6 @@ chmod 400 test-key.pem
 ssh -i test-key.pem ec2-user@ec2-54-159-255-77.compute-1.amazonaws.com
 ```
 
-12. Estoy adentro de la instancia! Chusmear lo que hay (filesystem nuevito).
+12. Estoy adentro de la instancia! Hacer `cd /` y chusmear lo que hay (filesystem nuevito).
 
 13. Dentro de la instancia, hacer un ping a google (`ping google.com`) y confirmar que funciona. Qué regla del security group de la instancia lo permite?
