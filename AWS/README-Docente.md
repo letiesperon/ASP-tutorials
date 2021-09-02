@@ -27,10 +27,14 @@
 
 ### Cómo ver los reportes por alumno 
 
-TODO
+https://awsacademy.instructure.com/courses/36/pages/viewing-lab-analytics?module_item_id=22361
+https://awsacademy.instructure.com/courses/36/modules/items/465260
 
 --
 
 ### Cómo hacer "Prewarm" de los labs
 
-TODO
+https://awsacademy.instructure.com/courses/36/pages/pre-warming-labs?module_item_id=22358
+
+![Screen Shot 2021-09-02 at 19 02 10](https://user-images.githubusercontent.com/17788257/131922092-94c5dcfc-8ac7-49bb-aa39-649122831c35.png)
+
