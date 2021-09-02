@@ -30,7 +30,9 @@
 https://awsacademy.instructure.com/courses/36/pages/viewing-lab-analytics?module_item_id=22361
 https://awsacademy.instructure.com/courses/36/modules/items/465260
 
---
+![Screen Shot 2021-09-02 at 19 02 52](https://user-images.githubusercontent.com/17788257/131922170-2f5264fc-9362-4b7b-8e2c-53fa32d11a59.png)
+
+---
 
 ### Cómo hacer "Prewarm" de los labs
 
