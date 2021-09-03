@@ -24,10 +24,13 @@ En este práctico vamos a crear una instancia y vamos a entrar por ssh a ella.
 ![Screen Shot 2021-03-16 at 20 04 52](https://user-images.githubusercontent.com/17788257/111391839-280aa480-8694-11eb-8d30-53463dbb60dd.png)
 
 9. Ir a la terminal al directorio donde tengo la key y correr.
-10. Poner la key privada. (o el equivalente para Windows (?) TBD) 
+10. Poner la key privada. 
 ```
 chmod 400 test-key.pem
 ```
+
+[Troubleshoot para Windows](https://gist.github.com/jaskiratr/cfacb332bfdff2f63f535db7efb6df93)
+
 11. Utilizar el DNS público para acceder a la instancia. (Observar el **ec2-user@** antes del DSN) Ejemplo:
 ```
 ssh -i test-key.pem ec2-user@ec2-54-159-255-77.compute-1.amazonaws.com
