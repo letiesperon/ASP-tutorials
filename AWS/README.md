@@ -27,6 +27,8 @@ El docente te tiene que haber invitado previamente a AWS Academy, concretamente 
 
 ## 2. Cómo entrar a Learner Lab
 
+(Si estás logueado en otra cuenta de AWS, es importante cerrar sesión antes). 
+
 1. Una vez adentro de AWS Academy, ir a la pestaña **Courses** y accedé al **"AWS Academy Learner Lab - Foundation Services"**.
 <img width="499" alt="Screen Shot 2021-08-28 at 20 19 53" src="https://user-images.githubusercontent.com/17788257/131234122-b40ad46e-e7d8-4b1e-95a1-4258962dadd7.png">
 
