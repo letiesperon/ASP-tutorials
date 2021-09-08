@@ -79,9 +79,18 @@ Por otro lado, vamos a ver cómo hostear un frontend en S3
 
 ---
 
+**Nota Sobre el routing:**
+En las SPAs (como React), el routing no es como una página tradicional donde según el path de la url, qué archivo html va a buscar y servir. En las SPAs hay solo una página (index.html) donde se inyecta el contenido que corresponda a través del javascript. Por tanto, todo path debería ir al index.html, y después en la app misma se configura el "routeo virtual" para que lea el path de la url y muestre el contenido que corresponda. En react hay una librería para esto que es react router por ejemplo. 
+TLDR: En S3 tanto en "index document" como en "error document" tienen que poner "index.html". La app tiene que tener la lógica de ruteo y la vista de 404 not found si el path es inválido. 
+
+---
+
 [Otro tutorial](https://www.ryanjyost.com/create-s3-bucket-manually/)
 
 **Por qué es conveniente hacer esto en lugar de usar Elastic Beanstalk u otro servicio?**
 
 ---
 [Precios S3](https://aws.amazon.com/es/getting-started/hands-on/host-static-website/services-costs/)
+
+---
+
