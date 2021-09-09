@@ -13,7 +13,7 @@ En este práctico vamos a crear una base de datos Postgres y acceder a ella usan
 
 ![Screen Shot 2021-03-14 at 17 02 01](https://user-images.githubusercontent.com/17788257/111082660-4e8bdc80-84e8-11eb-8446-77dd51d318ec.png)
 
-5. Elegir el free tier (la instancia será db.t2.micro).
+5. Elegir el free tier (la instancia será db.t2.micro). Si no aparece el free tier, elegir la versión más vieja de postgres.
 6. En este ejemplo, como `DB cluster identifier` vamos a usar `database-3`.
 7. En este ejemplo, como `Master username` vamos a usar `postgres`.
 8. En este ejemplo, como `Master password` vamos a usar `password`.
