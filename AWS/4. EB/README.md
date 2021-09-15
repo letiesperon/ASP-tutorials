@@ -41,7 +41,23 @@ En el repositorio se encuentra una app estática Node.js, ya Dockerizada.
 
 **IMPORTANTE:** Para subir el código debemos generar un archivo *.zip* donde el *Dockerfile* debe estar ubicado en la raiz del archivo a comprimir. Osea, que va para zippear, tengo que seleccionar TODOS los archivos y comprimirlos, no comprimir la carpeta porque entonces en el root path va a haber una carpeta y no los archivos directamente.
 
-8. Hacer click en "Create application"
+8. Para evitar un error que dice que no tenemos un cierto permiso, tenemos que darle a EB un rol que nos trae AWS Academy que tiene más permisos (LabRole). Para eso:
+
+Click en "Configure More Options"
+
+<img width="874" alt="Screen Shot 2021-09-15 at 20 39 50" src="https://user-images.githubusercontent.com/17788257/133527366-55841912-2836-4898-91be-56b1a69300e7.png">
+
+9. Click en "Security":
+
+<img width="1246" alt="Screen Shot 2021-09-15 at 20 40 00" src="https://user-images.githubusercontent.com/17788257/133527430-e2beaec3-952c-4abc-9db6-0b2b24cf2df3.png">
+
+
+10. Elegir estos valores:
+
+<img width="1163" alt="Screen Shot 2021-09-15 at 20 39 24" src="https://user-images.githubusercontent.com/17788257/133527440-363b3fd7-a96e-4d15-8ac7-078b2c604415.png">
+
+
+11. Hacer click en "Create application"
 
 <img width="513" alt="beanstalk-step-7" src="https://user-images.githubusercontent.com/17788257/111040656-c2f44c00-8412-11eb-8eca-fc4f8b4f3e7b.png">
 
