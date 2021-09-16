@@ -41,11 +41,13 @@ En el repositorio se encuentra una app estática Node.js, ya Dockerizada.
 
 **IMPORTANTE:** Para subir el código debemos generar un archivo *.zip* donde el *Dockerfile* debe estar ubicado en la raiz del archivo a comprimir. Osea, que va para zippear, tengo que seleccionar TODOS los archivos y comprimirlos, no comprimir la carpeta porque entonces en el root path va a haber una carpeta y no los archivos directamente.
 
+
 8. Para evitar un error que dice que no tenemos un cierto permiso, tenemos que darle a EB un rol que nos trae AWS Academy que tiene más permisos (LabRole). Para eso:
 
 Click en "Configure More Options"
 
-<img width="874" alt="Screen Shot 2021-09-15 at 20 39 50" src="https://user-images.githubusercontent.com/17788257/133527366-55841912-2836-4898-91be-56b1a69300e7.png">
+<img width="856" alt="Screen Shot 2021-09-15 at 20 59 31" src="https://user-images.githubusercontent.com/17788257/133528309-4d7578ed-aa92-4ccb-aac4-bcaf7e251686.png">
+
 
 9. Click en "Security":
 
