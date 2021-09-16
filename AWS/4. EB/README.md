@@ -64,15 +64,17 @@ Click en "Configure More Options"
 <img width="513" alt="beanstalk-step-7" src="https://user-images.githubusercontent.com/17788257/111040656-c2f44c00-8412-11eb-8eca-fc4f8b4f3e7b.png">
 
 
-9.El proceso de creación toma unos minutos. Mientras se realiza, pueden ir mirando todo lo que va creando y configurando por nosotros (instancias, security group, auto scaling group, etc).
+11. El proceso de creación toma unos minutos. Mientras se realiza, pueden ir mirando todo lo que va creando y configurando por nosotros (instancias, security group, auto scaling group, etc).
 
 <img width="1047" alt="beanstalk-step-8" src="https://user-images.githubusercontent.com/17788257/111040658-c556a600-8412-11eb-8ec7-b294259ca2d1.png">
 
 
-10. Finalmente hacer click en la URL disponible para acceder a la aplicación desplegada
+12. Finalmente hacer click en la URL disponible para acceder a la aplicación desplegada
 
 <img width="1065" alt="beanstalk-step-9" src="https://user-images.githubusercontent.com/17788257/111040663-c8519680-8412-11eb-869f-eb2b084e66f6.png">
 
+
+**Nota:** Si dejamos la configuración por defecto no tendremos ni load balancer, base de datos, etc. Los podemos agregar mientras configuramos el ambiente (en "Configure More Options" luego de subir el zip) o una vez que el environment se creó. 
 
 
 ---
