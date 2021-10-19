@@ -2,6 +2,8 @@
 
 **Tiempo aproximado: 20 minutos**
 
+[DEPRECATED 2021 Semestre 2, AWS Academy no lo tiene en la lista de servicios]
+
 AWS CodePipeline es un servicio de entrega continua completamente administrado que permite automatizar tus workflows. Se integra con varios tipos de repositorios (Github, AWS Code Commit, AWS S3) y puede desplegar a varios servicios, por ejemplo ElasticBeanstalk.
 
 En este práctico vamos a hacer un pipeline simple, que lea de un repositorio privado en Github y actualice una app en Elastic Beanstalk cada vez que se hace commit a master (Github Flow).
